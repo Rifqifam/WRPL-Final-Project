@@ -1,0 +1,53 @@
+# _________________________________________
+GET http://localhost:4000/wrpl-database/products?page=1
+# page, name, maxPrice, minPrice
+
+
+# _________________________________________
+
+
+
+
+
+# GET http://localhost:4000/wrpl-database/product/6474b2208bb22355a0bca1dd
+
+# _________________________________________
+
+
+
+
+# PUT http://localhost:4000/wrpl-database/admin/product/update/6474b2208bb22355a0bca1db
+# Content-Type: application/json
+
+# {
+#     "ratings" : 5
+# }
+
+
+# _________________________________________
+
+
+# DELETE http://localhost:4000/wrpl-database/admin/product/delete/6474b2208bb22355a0bca1db
+
+
+# _________________________________________
+
+
+
+# POST http://localhost:4000/wrpl-database/admin/product/new
+# Content-Type: application/json
+
+# {
+#     "name": "Radiant Raiment",
+#     "price": 87.511,
+#     "desc": "The Radiant Raiment Jacket captures the essence of beauty, with its graceful silhouette and timeless appeal.",
+#     "ratings" : 5,
+#     "images" : [{
+#         "public_id" : "products/2",
+#         "url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/COLLECTIE_TROPENMUSEUM_Rok_met_panoramische_beschildering_van_Indonesisch_landschap_TMnr_6217-7.jpg/640px-COLLECTIE_TROPENMUSEUM_Rok_met_panoramische_beschildering_van_Indonesisch_landschap_TMnr_6217-7.jpg"
+#     }],
+#     "category": "Jackets/Coats",
+#     "size": "XL",
+#     "seller": "2007"
+# }
+

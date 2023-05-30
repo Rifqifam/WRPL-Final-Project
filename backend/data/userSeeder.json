@@ -1,0 +1,27 @@
+[
+   {
+      "firstName": "Haikal",
+      "lastName": "Ghifari",
+      "admin": true
+   },
+   {
+      "firstName": "Ferdio",
+      "lastName": "Azka",
+      "admin": true
+   },
+   {
+      "firstName": "Aziza",
+      "lastName": "Wienetta",
+      "admin": false
+   },
+   {
+      "firstName": "Audrey",
+      "lastName": "Audrey",
+      "admin": false
+   },
+   {
+      "firstName": "Rifqi",
+      "lastName": "Fameizy",
+      "admin": true
+   }
+]

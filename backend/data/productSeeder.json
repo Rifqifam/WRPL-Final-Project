@@ -1,0 +1,303 @@
+[
+   {
+      "name": "Luminous Threads",
+      "price": 487310,
+      "desc": "Radiate confidence with exquisite trousers.",
+      "ratings": 3,
+      "images": [
+         {
+            "public_id": "products/1",
+            "url": "https://media.istockphoto.com/id/510615049/photo/mens-trousers.jpg?s=612x612&w=0&k=20&c=gdVhFuzt-Kbk4NG8cjaL1afjKoz_Z5Wddv2ssHFg2bM="
+         }
+      ],
+      "category": "Trousers",
+      "size": "S",
+      "seller": "2002"
+   },
+   {
+      "name": "Nova Apparel",
+      "price": 555607,
+      "desc": "Unleash your style with trendy shirts.",
+      "ratings": 1,
+      "images": [
+         {
+            "public_id": "products/2",
+            "url": "https://media.istockphoto.com/id/1225397516/photo/front-back-and-3-4-views-of-white-t-shirt-on-isolated-on-white-background-hip-hop-style.jpg?s=612x612&w=0&k=20&c=E0vaWLqpRZF8RnfSD3hhEgQLFbA1Q1bCaHG721hlgmE="
+         }
+      ],
+      "category": "Shirts",
+      "size": "L",
+      "seller": "2007"
+   },
+   {
+      "name": "Enchanted Couture",
+      "price": 876864,
+      "desc": "Step into enchantment with captivating dresses.",
+      "ratings": 1,
+      "images": [
+         {
+            "public_id": "products/3",
+            "url": "https://media.istockphoto.com/id/178851955/photo/flowery-evase-bateau-yellow-dress.jpg?s=612x612&w=0&k=20&c=EOJGCGC6dmFt0IQvbxq3PthCmNXO1flOpjYWC4KkcyQ="
+         }
+      ],
+      "category": "Dresses",
+      "size": "M",
+      "seller": "2001"
+   },
+   {
+      "name": "Radiant Raiment",
+      "price": 390428,
+      "desc": "Stay fashion-forward with stylish jackets.",
+      "ratings": 2,
+      "images": [
+         {
+            "public_id": "products/4",
+            "url": "https://static4.depositphotos.com/1013245/356/i/450/depositphotos_3561159-stock-photo-luxuru-black-leather-jacket-isolated.jpg"
+         }
+      ],
+      "category": "Jackets",
+      "size": "XL",
+      "seller": "2003"
+   },
+   {
+      "name": "Ethereal Elegance",
+      "price": 650204,
+      "desc": "Embrace ethereal elegance with stunning skirts.",
+      "ratings": 6,
+      "images": [
+         {
+            "public_id": "products/5",
+            "url": "https://t4.ftcdn.net/jpg/02/10/12/93/360_F_210129394_7Zy0V4ETCu1FmscUhe9UAEZ5GWdApCnn.jpg"
+         }
+      ],
+      "category": "Skirts",
+      "size": "M",
+      "seller": "2006"
+   },
+   {
+      "name": "Ember Attire",
+      "price": 820366,
+      "desc": "Experience comfort and style with chic shorts.",
+      "ratings": 2,
+      "images": [
+         {
+            "public_id": "products/6",
+            "url": "https://thumbs.dreamstime.com/b/thai-student-shorts-isolated-white-background-97454720.jpg"
+         }
+      ],
+      "category": "Shorts",
+      "size": "S",
+      "seller": "2003"
+   },
+   {
+      "name": "Stellar Style",
+      "price": 917084,
+      "desc": "Wrap yourself in cozy and fashionable sweaters.",
+      "ratings": 1,
+      "images": [
+         {
+            "public_id": "products/7",
+            "url": "https://thumbs.dreamstime.com/b/beige-sweater-28954274.jpg"
+         }
+      ],
+      "category": "Sweaters",
+      "size": "S",
+      "seller": "2001"
+   },
+   {
+      "name": "Serene Sartorial",
+      "price": 912688,
+      "desc": "Achieve serenity and style with versatile activewear.",
+      "ratings": 5,
+      "images": [
+         {
+            "public_id": "products/8",
+            "url": "https://www.bfgcdn.com/1500_1500_90/016-5790-0811/on-performance-t-running-shirt.jpg"
+         }
+      ],
+      "category": "Activewear",
+      "size": "M",
+      "seller": "2003"
+   },
+   {
+      "name": "Opulent Outfits",
+      "price": 814239,
+      "desc": "Make a statement at the beach with luxurious swimwear.",
+      "ratings": 6,
+      "images": [
+         {
+            "public_id": "products/9",
+            "url": "https://media.istockphoto.com/id/1332758692/photo/swimming-trunks-on-a-white-background.jpg?s=612x612&w=0&k=20&c=D2_XK7R0mSAe43Moij5jnoD__QS_koqWdmWnVyiP9Js="
+         }
+      ],
+      "category": "Swimwear",
+      "size": "L",
+      "seller": "2005"
+   },
+   {
+      "name": "Celestial Chic",
+      "price": 982211,
+      "desc": "Discover celestial chic with fashion-forward jumpsuits.",
+      "ratings": 5,
+      "images": [
+         {
+            "public_id": "products/10",
+            "url": "https://t4.ftcdn.net/jpg/04/42/20/27/360_F_442202741_8fOHEdABqoXkGrGV1cXf3PseEn0ChunE.jpg"
+         }
+      ],
+      "category": "Jumpsuits",
+      "size": "M",
+      "seller": "2004"
+   },
+   {
+      "name": "Majestic Moda",
+      "price": 859733,
+      "desc": "Indulge in luxurious sleepwear for ultimate relaxation.",
+      "ratings": 5,
+      "images": [
+         {
+            "public_id": "products/11",
+            "url": "https://media.istockphoto.com/id/1164086379/photo/pink-pajamas-on-white-wooden-surface-night-suit-for-sleeping-copy-space-top-view-flat-lay.jpg?s=1024x1024&w=is&k=20&c=xYpTfi3xzvPUQjs4EyDVwnbip6ZoXUzqKoI3ea7XMJ8="
+         }
+      ],
+      "category": "Sleepwear",
+      "size": "XL",
+      "seller": "2003"
+   },
+   {
+      "name": "Aurora Attire",
+      "price": 472035,
+      "desc": "Dress to impress with sleek and sophisticated suits.",
+      "ratings": 6,
+      "images": [
+         {
+            "public_id": "products/12",
+            "url": "https://as1.ftcdn.net/v2/jpg/00/70/11/40/1000_F_70114025_EMg5kVsPGbz1jiIB4ZMo2CKD4drmfbxj.jpg"
+         }
+      ],
+      "category": "Suits",
+      "size": "M",
+      "seller": "2004"
+   },
+   {
+      "name": "Blissful Boutique",
+      "price": 562274,
+      "desc": "Find bliss in unique and fashionable jumpsuits.",
+      "ratings": 2,
+      "images": [
+         {
+            "public_id": "products/13",
+            "url": "https://t4.ftcdn.net/jpg/04/42/20/27/360_F_442202741_8fOHEdABqoXkGrGV1cXf3PseEn0ChunE.jpg"
+         }
+      ],
+      "category": "Jumpsuit",
+      "size": "XL",
+      "seller": "2004"
+   },
+   {
+      "name": "Harmonic Hues",
+      "price": 586174,
+      "desc": "Harmonize style and versatility with our tops.",
+      "ratings": 3,
+      "images": [
+         {
+            "public_id": "products/14",
+            "url": "https://www.shutterstock.com/image-photo/sport-red-crop-top-isolated-260nw-597249695.jpg"
+         }
+      ],
+      "category": "Tops",
+      "size": "S",
+      "seller": "2004"
+   },
+   {
+      "name": "Graceful Garments",
+      "price": 556909,
+      "desc": "Experience grace and comfort with elegant denim.",
+      "ratings": 1,
+      "images": [
+         {
+            "public_id": "products/15",
+            "url": "https://www.shutterstock.com/image-photo/jeans-on-background-blue-lie-260nw-1189112893.jpg"
+         }
+      ],
+      "category": "Denim",
+      "size": "XS",
+
+      "seller": "2004"
+   },
+   {
+      "name": "Whimsical Wardrobe",
+      "price": 220099,
+      "desc": "Add a touch of whimsy with stylish blazers.",
+      "ratings": 5,
+      "images": [
+         {
+            "public_id": "products/16",
+            "url": "https://media.istockphoto.com/id/1070699436/vector/blazer.jpg?s=612x612&w=0&k=20&c=1_Ss8O1cJ2YA-HD0DWjrbr4dUYfth3JFsyYkdw64mzA="
+         }
+      ],
+      "category": "Blazers",
+      "size": "XXL",
+      "seller": "2007"
+   },
+   {
+      "name": "Tranquil Trends",
+      "price": 808055,
+      "desc": "Stay active and trendy with our sportswear collection.",
+      "ratings": 5,
+      "images": [
+         {
+            "public_id": "products/17",
+            "url": "https://c8.alamy.com/comp/AAMMEY/1970-1970s-full-figure-man-standing-wear-tennis-clothes-outfit-shorts-AAMMEY.jpg"
+         }
+      ],
+      "category": "Sportswear",
+      "size": "L",
+      "seller": "2004"
+   },
+   {
+      "name": "Enigmatic Ensembles",
+      "price": 713983,
+      "desc": "Embrace enigmatic style with our blazers.",
+      "ratings": 2,
+      "images": [
+         {
+            "public_id": "products/18",
+            "url": "https://media.istockphoto.com/id/1299988165/vector/sports-jersey-t-shirt-design-concept-vector-template-brazil-jersey-concept-with-front-and.jpg?s=612x612&w=0&k=20&c=b536ixP_XZt9n63Lr5agV_k6J5Wg9gI08KTkyXrVyUs="
+         }
+      ],
+      "category": "Blazers",
+      "size": "M",
+      "seller": "2007"
+   },
+   {
+      "name": "Splendorous Styles",
+      "price": 432387,
+      "desc": "Step into a world of splendor with stylish jumpsuits.",
+      "ratings": 3,
+      "images": [
+         {
+            "public_id": "products/19",
+            "url": "https://cdn.shopify.com/s/files/1/2425/8683/products/Sleeveless-tropical-leaf-navy-womens-jumpsuit-stock-shop-back_620x.jpg?v=1620917596"
+         }
+      ],
+      "category": "Jumpsuits",
+      "size": "S",
+      "seller": "2007"
+   },
+   {
+      "name": "Mystique Fashion",
+      "price": 855549,
+      "desc": "Unleash your mystique with fashionable and alluring jumpsuits.",
+      "ratings": 5,
+      "images": [
+         {
+            "public_id": "products/20",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToC_BHWhOmQRhBG1pGFYK4xM1OpPAv44dO2tuwUSS_jN8aVfg8lH3z8iX--Y1n3hdKX0c&usqp=CAU"
+         }
+      ],
+      "category": "Jumpsuits",
+      "size": "M",
+      "seller": "2007"
+   }
+]
