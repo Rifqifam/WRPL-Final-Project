@@ -1,0 +1,60 @@
+.header_wrapper {
+   display: flex;
+   justify-content: flex-end;
+
+   &_content {
+      display: flex;
+      align-content: center;
+      column-gap: 25px;
+
+      span {
+         transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+         display: flex;
+         justify-content: center;
+         align-content: center;
+         a {
+            display: flex;
+            align-content: center;
+            width: 25px;
+         }
+         img {
+            width: 25px;
+            margin-block: auto;
+         }
+      }
+
+      .search {
+         position: relative;
+         display: flex;
+         transition: all 0.3s ease;
+
+         img {
+            cursor: pointer;
+            &.active {
+               position: absolute;
+               right: 25px;
+               top: 50%;
+               transform: translateY(-50%);
+            }
+         }
+         input {
+            transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+            width: 0px;
+            border: none !important;
+
+            &.active {
+               width: 250px;
+               border: 1px solid #000000;
+               border-radius: 50px;
+               padding: 14px 25px;
+            }
+         }
+      }
+
+      .profile {
+         .cl-rootBox {
+            display: flex;
+         }
+      }
+   }
+}

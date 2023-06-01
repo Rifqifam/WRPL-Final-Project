@@ -4,6 +4,11 @@ class APIFeatures {
       this.queryStr = queryStr;
    }
 
+   cartId() {
+      const user_id = this.queryStr.userid;
+      this.query = this.queryStr.find({ ...user_id });
+   }
+
    search() {
       const name = this.queryStr.name
          ? {

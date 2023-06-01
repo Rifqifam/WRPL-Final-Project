@@ -1,0 +1,81 @@
+import "./App.scss";
+import {
+   ClerkProvider,
+   SignedIn,
+   SignIn,
+   SignedOut,
+   useUser,
+   useClerk,
+} from "@clerk/clerk-react";
+
+import {
+   NavLink,
+   BrowserRouter as Router,
+   Routes,
+   Route,
+} from "react-router-dom";
+// Import Pages
+// import FetchData from "./Pages/fetchData";
+
+// if (!process.env.REACT_APP_CLERK_PUBLISHABLE_KEY) {
+//    throw new Error("Missing Publishable Key");
+// }
+const clerkPubKey = "pk_test_Y3VycmVudC1jcmFuZS0xNy5jbGVyay5hY2NvdW50cy5kZXYk";
+
+function App() {
+   return (
+      <ClerkProvider publishableKey={clerkPubKey}>
+         <SignedIn>
+            <Welcome />
+         </SignedIn>
+         <Router>
+            <Routes>
+               <Route
+                  path='/'
+                  element={
+                     <SignedOut>
+                        <Home />
+                     </SignedOut>
+                  }
+               />
+               <Route path='/sign-up' element={<Sign_in />} />
+            </Routes>
+         </Router>
+      </ClerkProvider>
+   );
+}
+
+function Home() {
+   return (
+      <>
+         <h1>HomePage</h1>
+         <NavLink to='/sign-up'>To Sign In</NavLink>
+      </>
+   );
+}
+
+function Sign_in() {
+   return (
+      <>
+         <SignIn afterSignInUrl='/' signUpUrl='/sign-up' />
+      </>
+   );
+}
+
+function Welcome() {
+   const { user } = useUser();
+   const { signOut } = useClerk();
+
+   const userName = user.user;
+   const userRole = user.organizationMemberships[0].role;
+   return (
+      <div>
+         <h1>
+            Hello {userName} your role is {userRole}
+         </h1>
+         <button onClick={() => signOut()}>Sign out</button>
+      </div>
+   );
+}
+
+export default App;
