@@ -44,9 +44,9 @@
 
             &.active {
                width: 250px;
-               border: 1px solid #000000;
+               border: 1px solid #000000 !important;
                border-radius: 50px;
-               padding: 14px 25px;
+               padding: 8px 25px;
             }
          }
       }

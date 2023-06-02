@@ -48,12 +48,6 @@ const Header = () => {
          <div className='header_wrapper'>
             <div className='header_wrapper_content'>
                <span className='search'>
-                  <img
-                     src={Search}
-                     alt=''
-                     className={searchActive ? "active" : ""}
-                     onClick={handleSearchClick}
-                  />
                   <input
                      type='text'
                      placeholder='search here'
@@ -61,9 +55,15 @@ const Header = () => {
                      onChange={handleInputChange}
                      onKeyPress={handleKeyPress}
                   />
+                  <img
+                     src={Search}
+                     alt=''
+                     className={searchActive ? "active" : ""}
+                     onClick={handleSearchClick}
+                  />
                </span>
                <span className='favorite'>
-                  <NavLink to='/cart'>
+                  <NavLink to='/favourites'>
                      <img src={Heart} alt='' />
                   </NavLink>
                </span>

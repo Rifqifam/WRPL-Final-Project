@@ -1,0 +1,29 @@
+.homepage_title {
+   font-family: Montserrat, "Sans-serif";
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+
+   h1 {
+      margin-inline: auto;
+      font-weight: 800;
+      font-size: 62px;
+      margin-block: 10px;
+   }
+
+   p {
+      margin-inline: auto;
+      font-weight: 500;
+      font-size: 24px;
+   }
+}
+
+.homepage_products_wrapper {
+   margin-top: 48px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   position: relative;
+   column-gap: 20px;
+   row-gap: 40px;
+}

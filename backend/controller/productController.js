@@ -13,7 +13,7 @@ exports.newProduct = async (req, res, next) => {
 // GET ALL PRODUCTS /wrpl-database/products?name=apple
 exports.getAllProducts = async (req, res, next) => {
    try {
-      const resultPerPage = 5;
+      const resultPerPage = 8;
 
       const apiFeatures = new APIFeatures(Product.find(), req.query)
          .search()

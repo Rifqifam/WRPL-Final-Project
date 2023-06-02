@@ -17,6 +17,7 @@ import {
 
 import Header from "./layout/Header/Header";
 import Homepage from "./Pages/Homepage/Homepage";
+import SingleProduct from "./Components/singeProduct/singleProduct";
 
 const clerkPubKey = "pk_test_Y3VycmVudC1jcmFuZS0xNy5jbGVyay5hY2NvdW50cy5kZXYk";
 
@@ -26,10 +27,21 @@ function App() {
          <div className='app_wrapper'>
             <ClerkProvider publishableKey={clerkPubKey}>
                <Router>
-                  <Header />
-                  <Routes>
-                     <Route path='/' element={<Homepage />} />
-                  </Routes>
+                  <SignedOut>
+                     <div className='app_wrapper_signedoutstate'>
+                        <SignIn afterSignInUrl='/' />
+                     </div>
+                  </SignedOut>
+                  <SignedIn>
+                     <Header />
+                     <Routes>
+                        <Route path='/' element={<Homepage />} />
+                        <Route
+                           path='/product/:name'
+                           element={<SingleProduct />}
+                        />
+                     </Routes>
+                  </SignedIn>
                </Router>
             </ClerkProvider>
          </div>

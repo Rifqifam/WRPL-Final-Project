@@ -1,5 +1,5 @@
 # _________________________________________
-GET http://localhost:4000/wrpl-database/products?page=1
+GET http://localhost:4000/wrpl-database/products?name=lu
 # page, name, maxPrice, minPrice
 
 

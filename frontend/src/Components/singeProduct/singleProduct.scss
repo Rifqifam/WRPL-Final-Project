@@ -1,0 +1,32 @@
+.singleproduct_wrapper {
+   &_product {
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      column-gap: 75px;
+      &_leftcol {
+         width: calc(35% - (75px / 2));
+         position: relative;
+         overflow: hidden;
+         img {
+            width: 100%;
+            scale: 1.2;
+         }
+      }
+
+      &_rightcol {
+         width: calc(65% - (75px / 2));
+
+         &_gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            position: relative;
+            column-gap: 21px;
+
+            img {
+               max-width: 100%;
+            }
+         }
+      }
+   }
+}
