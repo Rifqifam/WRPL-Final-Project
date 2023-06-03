@@ -1,5 +1,5 @@
 const Product = require("../models/product");
-const User = require("../models/user");
+const User = require("../models/userCart.js");
 const dotenv = require("dotenv");
 const connectDatabase = require("../config/database");
 
