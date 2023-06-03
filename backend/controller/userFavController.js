@@ -1,84 +1,14 @@
 const UserFav = require("../models/favorite");
 const APIFeatures = require("../utils/apiFeatures");
 
-// ADD ITEM CART => GET /wrpl-database/cart/add
+// ADD ITEM TO FAVORITES => POST /wrpl-database/fav/add
 exports.newFav = async (req, res, next) => {
-   const userFav = await UserFav.create(req.body);
-
-   res.status(201).json({
-      success: true,
-      userFav,
-   });
-};
-
-// DELETE CART DELETE /wrpl-database/cart/delete/:id
-exports.deleteFav = async (req, res, next) => {
-   const user_id = req.params.id;
-   const userFav = await UserFav.findOneAndDelete({ user_id: user_id });
-
-   if (userFav.deletedCount === 0) {
-      return res.status(404).json({
-         success: false,
-         message: "Favorite Not Found",
-      });
-   }
-
-   res.status(200).json({
-      success: true,
-      message: "Favorite is Deleted",
-   });
-};
-
-exports.updateFavAdd = async (req, res, next) => {
-   const user_id = req.params.id;
-   const addFav = req.body;
-
-   let userFav = await UserFav.findOne({ user_id: user_id });
-
-   if (!userFav) {
-      return res.status(404).json({
-         success: false,
-         message: "Cart Not Found",
-      });
-   }
-
-   // Concatenate addCart to activeCart
-   userFav.favorites = userFav.favorites.concat(addFav);
-
-   userFav = await UserFav.save();
-
-   res.status(200).json({
-      success: true,
-      userFav,
-   });
-};
-
-exports.updateFavDelete = async (req, res, next) => {
-   const user_id = req.params.id;
-   const deleteFavName = req.body.name;
-
-   let userFav = await UserCart.findOne({ user_id: user_id });
-
-   if (!userFav) {
-      res.status(404).json({
-         success: false,
-         message: "cart not found",
-      });
-   }
-
-   const activeFavWithName = userFav.favorites.filter(
-      (item) => item.name !== deleteFavName
-   );
-
    try {
-      const updatedFav = await UserCart.findOneAndUpdate(
-         { user_id: user_id },
-         { $set: { activeCart: activeCartWithName } }
-      );
+      const userFav = await UserFav.create(req.body);
 
-      res.status(200).json({
+      res.status(201).json({
          success: true,
-         favorites: updatedFav.favorites,
+         userFav,
       });
    } catch (error) {
       res.status(500).json({
@@ -89,21 +19,124 @@ exports.updateFavDelete = async (req, res, next) => {
    }
 };
 
-// DISPLAY USER CART => /wrpl-database/cart?user_id={user_id}
-exports.displayUserFav = async (req, res, next) => {
-   const { user_id } = req.query;
+// DELETE FAVORITE => DELETE /wrpl-database/fav/delete/:id
+exports.deleteFav = async (req, res, next) => {
+   try {
+      const user_id = req.params.id;
+      const userFav = await UserFav.findOneAndDelete({ user_id: user_id });
 
-   let userFav = await UserFav.findOne({ user_id: user_id });
+      if (!userFav) {
+         return res.status(404).json({
+            success: false,
+            message: "Favorite Not Found",
+         });
+      }
 
-   if (!userFav) {
-      return res.status(404).json({
+      res.status(200).json({
+         success: true,
+         message: "Favorite is Deleted",
+      });
+   } catch (error) {
+      res.status(500).json({
          success: false,
-         message: "Fav Not Found",
+         message: "Internal server error",
+         error: error.message,
       });
    }
+};
 
-   res.status(200).json({
-      success: true,
-      userFav,
-   });
+// ADD FAVORITE TO USER FAVORITES => PUT /wrpl-database/fav/add/:id
+exports.updateFavAdd = async (req, res, next) => {
+   try {
+      const user_id = req.params.id;
+      const addFav = req.body;
+
+      let userFav = await UserFav.findOne({ user_id: user_id });
+
+      if (!userFav) {
+         return res.status(404).json({
+            success: false,
+            message: "Favorite Not Found",
+         });
+      }
+
+      // Concatenate addFav to favorites array
+      userFav.favorites = userFav.favorites.concat(addFav);
+
+      userFav = await userFav.save();
+
+      res.status(200).json({
+         success: true,
+         userFav,
+      });
+   } catch (error) {
+      res.status(500).json({
+         success: false,
+         message: "Internal server error",
+         error: error.message,
+      });
+   }
+};
+
+// REMOVE FAVORITE FROM USER FAVORITES => PUT /wrpl-database/fav/delete/:id
+exports.updateFavDelete = async (req, res, next) => {
+   try {
+      const user_id = req.params.id;
+      const deleteFavName = req.body.name;
+
+      let userFav = await UserFav.findOne({ user_id: user_id });
+
+      if (!userFav) {
+         return res.status(404).json({
+            success: false,
+            message: "Favorite Not Found",
+         });
+      }
+
+      const updatedFavorites = userFav.favorites.filter(
+         (item) => item.name !== deleteFavName
+      );
+
+      userFav.favorites = updatedFavorites;
+
+      userFav = await userFav.save();
+
+      res.status(200).json({
+         success: true,
+         userFav,
+      });
+   } catch (error) {
+      res.status(500).json({
+         success: false,
+         message: "Internal server error",
+         error: error.message,
+      });
+   }
+};
+
+// DISPLAY USER FAVORITES => GET /wrpl-database/fav?user_id={user_id}
+exports.displayUserFav = async (req, res, next) => {
+   try {
+      const { user_id } = req.query;
+
+      let userFav = await UserFav.findOne({ user_id: user_id });
+
+      if (!userFav) {
+         return res.status(404).json({
+            success: false,
+            message: "Favorites Not Found",
+         });
+      }
+
+      res.status(200).json({
+         success: true,
+         userFav,
+      });
+   } catch (error) {
+      res.status(500).json({
+         success: false,
+         message: "Internal server error",
+         error: error.message,
+      });
+   }
 };

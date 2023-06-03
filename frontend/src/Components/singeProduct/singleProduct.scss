@@ -45,6 +45,14 @@
                margin-block: unset;
             }
          }
+
+         &_favorites {
+            .btn {
+               cursor: pointer;
+               background: unset;
+               border: none;
+            }
+         }
       }
    }
 }

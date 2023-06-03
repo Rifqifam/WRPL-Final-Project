@@ -60,4 +60,4 @@ const userFavSchema = new mongoose.Schema({
    ],
 });
 
-module.exports = mongoose.model("UserCart", userFavSchema);
+module.exports = mongoose.model("UserFav", userFavSchema);
