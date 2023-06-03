@@ -1,14 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useUser } from "@clerk/clerk-react";
+import ProductBlockAdmin from "../../Components/productBlock_admin/productBlock";
 
 const AdminPageContent = () => {
-   const [currPageAdmin, setCurrentPageAdmin] = useState("");
+   const [currPageAdmin, setCurrentPageAdmin] = useState("add");
    const API_URL = "http://localhost:4000/wrpl-database/";
    const { user } = useUser();
-
-   const handlecurrPageAdmin = (page) => {
-      setCurrentPageAdmin(page);
-   };
    const [productData, setProductData] = useState({
       name: "",
       price: 0.0,
@@ -17,6 +14,10 @@ const AdminPageContent = () => {
       size: "",
       sellerid: "",
    });
+
+   const handlecurrPageAdmin = (page) => {
+      setCurrentPageAdmin(page);
+   };
 
    const handleChange = (e) => {
       setProductData({
@@ -37,10 +38,33 @@ const AdminPageContent = () => {
          });
          //  console.log(body.sellerid);
          console.log("Product created successfully");
+
+         setProductData({
+            name: "",
+            price: 0.0,
+            desc: "",
+            category: "",
+            size: "",
+         });
       } catch (e) {
          console.error(e);
       }
    };
+   const [products, setProducts] = useState([]);
+   useEffect(() => {
+      const fetchData = async () => {
+         try {
+            const response = await fetch(
+               `${API_URL}/products?sellerid=${user.id}`
+            );
+            const data = await response.json();
+            setProducts(data.data);
+         } catch (error) {
+            console.error("Error 'fetchData':", error);
+         }
+      };
+      fetchData();
+   }, []);
 
    return (
       <div className='adminpage_content'>
@@ -125,7 +149,15 @@ const AdminPageContent = () => {
             )}
             {currPageAdmin === "delete" && (
                <>
-                  <div>delete</div>
+                  <div className='adminpage_content_tabcontent_delete'>
+                     {products.map((product) => (
+                        <ProductBlockAdmin
+                           name={product.name}
+                           image={product.images[0].url}
+                           id={product._id}
+                        />
+                     ))}
+                  </div>
                </>
             )}
          </div>

@@ -25,7 +25,8 @@ exports.getAllProducts = async (req, res, next) => {
       const apiFeatures = new APIFeatures(Product.find(), req.query)
          .search()
          .filterByPrice()
-         .pagination(resultPerPage);
+         .pagination(resultPerPage)
+         .userId();
 
       const products = await apiFeatures.query; // Fetch all products from the database
 
