@@ -1,0 +1,72 @@
+.adminpage {
+   &_title {
+      &_text {
+         font-size: 32px;
+         font-weight: 400;
+
+         span {
+            font-weight: 700;
+         }
+      }
+   }
+
+   &_content {
+      padding-top: 40px;
+      display: flex;
+      position: relative;
+      column-gap: 25px;
+
+      &_tab {
+         width: calc(30% - 12.5px);
+         ul {
+            background: rgb(236, 236, 236);
+            margin-block: unset;
+            padding-left: unset;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0px 5px 21px -4px rgba(0, 0, 0, 0.28);
+            -webkit-box-shadow: 0px 5px 21px -4px rgba(0, 0, 0, 0.28);
+            -moz-box-shadow: 0px 5px 21px -4px rgba(0, 0, 0, 0.28);
+
+            li {
+               transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+               cursor: pointer;
+               font-size: 18px;
+               padding-block: 10px;
+               padding-inline: 15px;
+               list-style: none;
+
+               &:hover {
+                  background: rgb(220, 219, 219);
+               }
+            }
+         }
+      }
+
+      &_tabcontent {
+         width: calc(70% - 12.5px);
+
+         &_addform {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 20px;
+            row-gap: 20px;
+            label {
+               width: calc(50% - 10px);
+               display: flex;
+               flex-direction: column;
+               font-size: 20px;
+               font-family: Montserrat;
+
+               row-gap: 10px;
+
+               input {
+                  padding: 10px 15px;
+                  border-radius: 5px;
+                  border: 1px solid rgb(69, 69, 69);
+               }
+            }
+         }
+      }
+   }
+}

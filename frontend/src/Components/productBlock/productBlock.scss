@@ -1,18 +1,19 @@
-a {
+a.product_wrapper {
+   overflow: hidden;
+   border: 1px solid #a9a9a9;
+   border-radius: 30px;
+   transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+   padding-block: 20px;
    &:hover {
-      .product {
-         box-shadow: 0px 5px 21px -4px rgba(0, 0, 0, 0.28);
-         -webkit-box-shadow: 0px 5px 21px -4px rgba(0, 0, 0, 0.28);
-         -moz-box-shadow: 0px 5px 21px -4px rgba(0, 0, 0, 0.28);
+      box-shadow: 0px 5px 21px -4px rgba(0, 0, 0, 0.28);
+      -webkit-box-shadow: 0px 5px 21px -4px rgba(0, 0, 0, 0.28);
+      -moz-box-shadow: 0px 5px 21px -4px rgba(0, 0, 0, 0.28);
 
-         img {
-            scale: 1.1;
-         }
+      img {
+         scale: 1.1;
       }
    }
    .product {
-      transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
-      height: 100%;
       display: flex;
       justify-content: center;
       align-content: center;
@@ -20,13 +21,10 @@ a {
 
       padding: 10px 5px;
 
-      border: 1px solid #808080;
-      border-radius: 30px;
-
       img {
          transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
          margin-block: auto;
-         width: 60%;
+         width: 70%;
          aspect-ratio: 3/2;
          object-fit: contain;
          margin: auto;

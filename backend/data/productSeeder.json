@@ -7,12 +7,21 @@
       "images": [
          {
             "public_id": "products/1",
-            "url": "https://media.istockphoto.com/id/510615049/photo/mens-trousers.jpg?s=612x612&w=0&k=20&c=gdVhFuzt-Kbk4NG8cjaL1afjKoz_Z5Wddv2ssHFg2bM="
+            "url": "https://www.transparentpng.com/thumb/trouser/trousers--pants-jeans-linen-fabric-png-4.png"
+         },
+         {
+            "public_id": "products/1",
+            "url": "https://toppng.com/uploads/preview/trousers-11569063990ygl7epr4k0.png"
+         },
+         {
+            "public_id": "products/1",
+            "url": "https://www.pngkey.com/png/detail/616-6164205_formal-trousers.png"
          }
       ],
       "category": "Trousers",
       "size": "S",
-      "seller": "2002"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 0
    },
    {
       "name": "Nova Apparel",
@@ -22,12 +31,21 @@
       "images": [
          {
             "public_id": "products/2",
-            "url": "https://media.istockphoto.com/id/1225397516/photo/front-back-and-3-4-views-of-white-t-shirt-on-isolated-on-white-background-hip-hop-style.jpg?s=612x612&w=0&k=20&c=E0vaWLqpRZF8RnfSD3hhEgQLFbA1Q1bCaHG721hlgmE="
+            "url": "https://www.transparentpng.com/thumb/shirt/t0nf0S-t-shirt-transparent-background.png"
+         },
+         {
+            "public_id": "products/2",
+            "url": "https://img.freepik.com/premium-psd/t-shirt-front_303714-1924.jpg"
+         },
+         {
+            "public_id": "products/2",
+            "url": "https://static.vecteezy.com/system/resources/previews/008/847/318/original/isolated-black-t-shirt-front-free-png.png"
          }
       ],
       "category": "Shirts",
       "size": "L",
-      "seller": "2007"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 1
    },
    {
       "name": "Enchanted Couture",
@@ -37,12 +55,21 @@
       "images": [
          {
             "public_id": "products/3",
-            "url": "https://media.istockphoto.com/id/178851955/photo/flowery-evase-bateau-yellow-dress.jpg?s=612x612&w=0&k=20&c=EOJGCGC6dmFt0IQvbxq3PthCmNXO1flOpjYWC4KkcyQ="
+            "url": "https://www.transparentpng.com/thumb/clothes/flYuLs-dress-clothes-clipart-photo.png"
+         },
+         {
+            "public_id": "products/3",
+            "url": "https://w7.pngwing.com/pngs/639/359/png-transparent-dress-clothing-red-dress-fashion-vintage-clothing-desktop-wallpaper-thumbnail.png"
+         },
+         {
+            "public_id": "products/3",
+            "url": "https://e7.pngegg.com/pngimages/118/783/png-clipart-ball-gown-dress-formal-wear-evening-gown-dress-gown-dress.png"
          }
       ],
       "category": "Dresses",
       "size": "M",
-      "seller": "2001"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 2
    },
    {
       "name": "Radiant Raiment",
@@ -52,12 +79,21 @@
       "images": [
          {
             "public_id": "products/4",
-            "url": "https://static4.depositphotos.com/1013245/356/i/450/depositphotos_3561159-stock-photo-luxuru-black-leather-jacket-isolated.jpg"
+            "url": "https://w7.pngwing.com/pngs/578/800/png-transparent-leather-jacket-sleeve-jacket-textile-leather-black-thumbnail.png"
+         },
+         {
+            "public_id": "products/4",
+            "url": "https://www.pngmart.com/files/1/Helly-Hansen-Verglas-Down-Jacket-PNG.png"
+         },
+         {
+            "public_id": "products/4",
+            "url": "https://w7.pngwing.com/pngs/43/739/png-transparent-jacket-hoodie-overcoat-green-jackets-zipper-green-apple-green-tea.png"
          }
       ],
       "category": "Jackets",
       "size": "XL",
-      "seller": "2003"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 3
    },
    {
       "name": "Ethereal Elegance",
@@ -67,12 +103,21 @@
       "images": [
          {
             "public_id": "products/5",
-            "url": "https://t4.ftcdn.net/jpg/02/10/12/93/360_F_210129394_7Zy0V4ETCu1FmscUhe9UAEZ5GWdApCnn.jpg"
+            "url": "https://w7.pngwing.com/pngs/31/267/png-transparent-women-s-black-skirt-little-black-dress-waist-skirt-skirt-holidays-black-black-skirt.png"
+         },
+         {
+            "public_id": "products/5",
+            "url": "https://p1.hiclipart.com/preview/14/888/59/aesthetic-black-green-and-red-plaid-pleated-skirt-png-clipart.jpg"
+         },
+         {
+            "public_id": "products/5",
+            "url": "https://p7.hiclipart.com/preview/449/891/655/skirt-a-line-blue-clothing-dress-dress.jpg"
          }
       ],
       "category": "Skirts",
       "size": "M",
-      "seller": "2006"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 4
    },
    {
       "name": "Ember Attire",
@@ -82,12 +127,21 @@
       "images": [
          {
             "public_id": "products/6",
-            "url": "https://thumbs.dreamstime.com/b/thai-student-shorts-isolated-white-background-97454720.jpg"
+            "url": "https://e7.pngegg.com/pngimages/212/521/png-clipart-shorts-children-s-clothing-swim-briefs-trunks-shorts.png"
+         },
+         {
+            "public_id": "products/6",
+            "url": "https://w7.pngwing.com/pngs/718/375/png-transparent-bermuda-shorts-underpants-trunks-waist-others-miscellaneous-child-baby-clothes.png"
+         },
+         {
+            "public_id": "products/6",
+            "url": "https://w7.pngwing.com/pngs/847/782/png-transparent-trunks-bermuda-shorts-brand-baby-dolphin-trunks-active-shorts-baby-dolphin.png"
          }
       ],
       "category": "Shorts",
       "size": "S",
-      "seller": "2003"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 5
    },
    {
       "name": "Stellar Style",
@@ -97,12 +151,21 @@
       "images": [
          {
             "public_id": "products/7",
-            "url": "https://thumbs.dreamstime.com/b/beige-sweater-28954274.jpg"
+            "url": "https://i.pinimg.com/originals/31/5b/f4/315bf4e7cd9e3764e5ca1de2b4255645.png"
+         },
+         {
+            "public_id": "products/7",
+            "url": "https://i.pinimg.com/originals/8f/54/75/8f5475a15fe03715ab41b1707ee8a212.png"
+         },
+         {
+            "public_id": "products/7",
+            "url": "https://www.pngall.com/wp-content/uploads/6/Sweater-PNG.png"
          }
       ],
       "category": "Sweaters",
       "size": "S",
-      "seller": "2001"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 6
    },
    {
       "name": "Serene Sartorial",
@@ -112,12 +175,21 @@
       "images": [
          {
             "public_id": "products/8",
-            "url": "https://www.bfgcdn.com/1500_1500_90/016-5790-0811/on-performance-t-running-shirt.jpg"
+            "url": "https://static.wixstatic.com/media/923ec6_bba897f862154c43a08bb06626ef37c6~mv2.png/v1/fill/w_350,h_412,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/MOCKUP%20JERSEY.png"
+         },
+         {
+            "public_id": "products/8",
+            "url": "https://static.wixstatic.com/media/923ec6_da41a958c71b4fefb2b2786c4cc1f3dc~mv2.png/v1/fill/w_400,h_640,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/MOCKUP%20JERSEY-3.png"
+         },
+         {
+            "public_id": "products/8",
+            "url": "https://e7.pngegg.com/pngimages/328/473/png-clipart-t-shirt-sports-fan-jersey-clothing-esports-t-shirt-tshirt-logo.png"
          }
       ],
       "category": "Activewear",
       "size": "M",
-      "seller": "2003"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 7
    },
    {
       "name": "Opulent Outfits",
@@ -127,12 +199,21 @@
       "images": [
          {
             "public_id": "products/9",
-            "url": "https://media.istockphoto.com/id/1332758692/photo/swimming-trunks-on-a-white-background.jpg?s=612x612&w=0&k=20&c=D2_XK7R0mSAe43Moij5jnoD__QS_koqWdmWnVyiP9Js="
+            "url": "https://e7.pngegg.com/pngimages/536/377/png-clipart-trunks-swim-briefs-underpants-bermuda-shorts-others-swimsuit-bottom-active-shorts.png"
+         },
+         {
+            "public_id": "products/9",
+            "url": "https://images-na.ssl-images-amazon.com/images/I/619IdLxYGDL._SLDPMOBCAROUSELAUTOCROP288221_MCnd_AC_SR462,693_.jpg"
+         },
+         {
+            "public_id": "products/9",
+            "url": "https://i5.walmartimages.com/asr/f4c133ee-8288-4af9-9218-32950d3314a9.e733d1e680c4d4d93eaddb0ed9f702a3.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
          }
       ],
       "category": "Swimwear",
       "size": "L",
-      "seller": "2005"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 8
    },
    {
       "name": "Celestial Chic",
@@ -142,12 +223,21 @@
       "images": [
          {
             "public_id": "products/10",
+            "url": "https://w7.pngwing.com/pngs/474/687/png-transparent-jumpsuit-t-shirt-clothing-dress-neckline-t-shirt-fashion-top-clothing-accessories.png"
+         },
+         {
+            "public_id": "products/10",
             "url": "https://t4.ftcdn.net/jpg/04/42/20/27/360_F_442202741_8fOHEdABqoXkGrGV1cXf3PseEn0ChunE.jpg"
+         },
+         {
+            "public_id": "products/10",
+            "url": "https://w7.pngwing.com/pngs/532/456/png-transparent-sleeve-jumpsuit-romper-suit-clothing-fashion-dress-fashion-tie-woman.png"
          }
       ],
       "category": "Jumpsuits",
       "size": "M",
-      "seller": "2004"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 9
    },
    {
       "name": "Majestic Moda",
@@ -157,12 +247,21 @@
       "images": [
          {
             "public_id": "products/11",
+            "url": "https://www.prada.com/content/dam/pradanux_products/P/PJ8/PJ8B64/1YWMF0KTK/PJ8B64_1YWM_F0KTK_S_192_SLF.png"
+         },
+         {
+            "public_id": "products/11",
             "url": "https://media.istockphoto.com/id/1164086379/photo/pink-pajamas-on-white-wooden-surface-night-suit-for-sleeping-copy-space-top-view-flat-lay.jpg?s=1024x1024&w=is&k=20&c=xYpTfi3xzvPUQjs4EyDVwnbip6ZoXUzqKoI3ea7XMJ8="
+         },
+         {
+            "public_id": "products/11",
+            "url": "https://w7.pngwing.com/pngs/153/385/png-transparent-clothing-nightwear-pajamas-sleeve-dress-chinese-lace-miscellaneous-pink-m-pink.png"
          }
       ],
       "category": "Sleepwear",
       "size": "XL",
-      "seller": "2003"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 10
    },
    {
       "name": "Aurora Attire",
@@ -172,12 +271,21 @@
       "images": [
          {
             "public_id": "products/12",
+            "url": "https://w7.pngwing.com/pngs/614/330/png-transparent-t-shirt-blazer-armani-clothing-fashion-button-fashion-formal-wear-armani.png"
+         },
+         {
+            "public_id": "products/12",
             "url": "https://as1.ftcdn.net/v2/jpg/00/70/11/40/1000_F_70114025_EMg5kVsPGbz1jiIB4ZMo2CKD4drmfbxj.jpg"
+         },
+         {
+            "public_id": "products/12",
+            "url": "https://cdn.imgbin.com/17/25/21/imgbin-suit-costume-clothing-pants-armani-suit-whEMrtQA4DSiedn8frFmCPinP.jpg"
          }
       ],
       "category": "Suits",
       "size": "M",
-      "seller": "2004"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 11
    },
    {
       "name": "Blissful Boutique",
@@ -187,12 +295,21 @@
       "images": [
          {
             "public_id": "products/13",
+            "url": "https://w7.pngwing.com/pngs/474/687/png-transparent-jumpsuit-t-shirt-clothing-dress-neckline-t-shirt-fashion-top-clothing-accessories.png"
+         },
+         {
+            "public_id": "products/13",
             "url": "https://t4.ftcdn.net/jpg/04/42/20/27/360_F_442202741_8fOHEdABqoXkGrGV1cXf3PseEn0ChunE.jpg"
+         },
+         {
+            "public_id": "products/13",
+            "url": "https://w7.pngwing.com/pngs/532/456/png-transparent-sleeve-jumpsuit-romper-suit-clothing-fashion-dress-fashion-tie-woman.png"
          }
       ],
       "category": "Jumpsuit",
       "size": "XL",
-      "seller": "2004"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 12
    },
    {
       "name": "Harmonic Hues",
@@ -202,12 +319,21 @@
       "images": [
          {
             "public_id": "products/14",
+            "url": "https://w7.pngwing.com/pngs/658/514/png-transparent-t-shirt-bra-crop-top-camisole-spaghetti-zipper-fashion-woman.png"
+         },
+         {
+            "public_id": "products/14",
             "url": "https://www.shutterstock.com/image-photo/sport-red-crop-top-isolated-260nw-597249695.jpg"
+         },
+         {
+            "public_id": "products/14",
+            "url": "https://w7.pngwing.com/pngs/414/739/png-transparent-t-shirt-sleeve-crop-top-hoodie-crop-tops-tshirt-fashion-aesthetics.png"
          }
       ],
       "category": "Tops",
       "size": "S",
-      "seller": "2004"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 13
    },
    {
       "name": "Graceful Garments",
@@ -217,13 +343,22 @@
       "images": [
          {
             "public_id": "products/15",
+            "url": "https://w7.pngwing.com/pngs/18/500/png-transparent-jeans-revolution-denim-uniqlo-pants-jeans-blue-innovation-woman.png"
+         },
+         {
+            "public_id": "products/15",
             "url": "https://www.shutterstock.com/image-photo/jeans-on-background-blue-lie-260nw-1189112893.jpg"
+         },
+         {
+            "public_id": "products/15",
+            "url": "https://w7.pngwing.com/pngs/63/280/png-transparent-jeans-denim-slim-fit-pants-bell-bottoms-jeans-blue-fashion-boy.png"
          }
       ],
       "category": "Denim",
       "size": "XS",
 
-      "seller": "2004"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 14
    },
    {
       "name": "Whimsical Wardrobe",
@@ -233,12 +368,21 @@
       "images": [
          {
             "public_id": "products/16",
+            "url": "https://e7.pngegg.com/pngimages/795/374/png-clipart-woman-wearing-black-blazers-holding-a-book-woman-blazer-clothing-fashionable-white-collar-women-holidays-fashion-girl.png"
+         },
+         {
+            "public_id": "products/16",
             "url": "https://media.istockphoto.com/id/1070699436/vector/blazer.jpg?s=612x612&w=0&k=20&c=1_Ss8O1cJ2YA-HD0DWjrbr4dUYfth3JFsyYkdw64mzA="
+         },
+         {
+            "public_id": "products/16",
+            "url": "https://toppng.com/uploads/preview/blazer-png-11540021823zriggbcpgk.png"
          }
       ],
       "category": "Blazers",
       "size": "XXL",
-      "seller": "2007"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 15
    },
    {
       "name": "Tranquil Trends",
@@ -248,12 +392,21 @@
       "images": [
          {
             "public_id": "products/17",
-            "url": "https://c8.alamy.com/comp/AAMMEY/1970-1970s-full-figure-man-standing-wear-tennis-clothes-outfit-shorts-AAMMEY.jpg"
+            "url": "https://static.wixstatic.com/media/923ec6_bba897f862154c43a08bb06626ef37c6~mv2.png/v1/fill/w_350,h_412,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/MOCKUP%20JERSEY.png"
+         },
+         {
+            "public_id": "products/17",
+            "url": "https://static.wixstatic.com/media/923ec6_da41a958c71b4fefb2b2786c4cc1f3dc~mv2.png/v1/fill/w_400,h_640,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/MOCKUP%20JERSEY-3.png"
+         },
+         {
+            "public_id": "products/17",
+            "url": "https://e7.pngegg.com/pngimages/328/473/png-clipart-t-shirt-sports-fan-jersey-clothing-esports-t-shirt-tshirt-logo.png"
          }
       ],
       "category": "Sportswear",
       "size": "L",
-      "seller": "2004"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 16
    },
    {
       "name": "Enigmatic Ensembles",
@@ -263,12 +416,21 @@
       "images": [
          {
             "public_id": "products/18",
-            "url": "https://media.istockphoto.com/id/1299988165/vector/sports-jersey-t-shirt-design-concept-vector-template-brazil-jersey-concept-with-front-and.jpg?s=612x612&w=0&k=20&c=b536ixP_XZt9n63Lr5agV_k6J5Wg9gI08KTkyXrVyUs="
+            "url": "https://e7.pngegg.com/pngimages/795/374/png-clipart-woman-wearing-black-blazers-holding-a-book-woman-blazer-clothing-fashionable-white-collar-women-holidays-fashion-girl.png"
+         },
+         {
+            "public_id": "products/18",
+            "url": "https://media.istockphoto.com/id/1070699436/vector/blazer.jpg?s=612x612&w=0&k=20&c=1_Ss8O1cJ2YA-HD0DWjrbr4dUYfth3JFsyYkdw64mzA="
+         },
+         {
+            "public_id": "products/18",
+            "url": "https://toppng.com/uploads/preview/blazer-png-11540021823zriggbcpgk.png"
          }
       ],
       "category": "Blazers",
       "size": "M",
-      "seller": "2007"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 17
    },
    {
       "name": "Splendorous Styles",
@@ -278,12 +440,21 @@
       "images": [
          {
             "public_id": "products/19",
-            "url": "https://cdn.shopify.com/s/files/1/2425/8683/products/Sleeveless-tropical-leaf-navy-womens-jumpsuit-stock-shop-back_620x.jpg?v=1620917596"
+            "url": "https://w7.pngwing.com/pngs/474/687/png-transparent-jumpsuit-t-shirt-clothing-dress-neckline-t-shirt-fashion-top-clothing-accessories.png"
+         },
+         {
+            "public_id": "products/19",
+            "url": "https://t4.ftcdn.net/jpg/04/42/20/27/360_F_442202741_8fOHEdABqoXkGrGV1cXf3PseEn0ChunE.jpg"
+         },
+         {
+            "public_id": "products/19",
+            "url": "https://w7.pngwing.com/pngs/532/456/png-transparent-sleeve-jumpsuit-romper-suit-clothing-fashion-dress-fashion-tie-woman.png"
          }
       ],
       "category": "Jumpsuits",
       "size": "S",
-      "seller": "2007"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 18
    },
    {
       "name": "Mystique Fashion",
@@ -293,11 +464,20 @@
       "images": [
          {
             "public_id": "products/20",
-            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToC_BHWhOmQRhBG1pGFYK4xM1OpPAv44dO2tuwUSS_jN8aVfg8lH3z8iX--Y1n3hdKX0c&usqp=CAU"
+            "url": "https://w7.pngwing.com/pngs/474/687/png-transparent-jumpsuit-t-shirt-clothing-dress-neckline-t-shirt-fashion-top-clothing-accessories.png"
+         },
+         {
+            "public_id": "products/20",
+            "url": "https://t4.ftcdn.net/jpg/04/42/20/27/360_F_442202741_8fOHEdABqoXkGrGV1cXf3PseEn0ChunE.jpg"
+         },
+         {
+            "public_id": "products/20",
+            "url": "https://w7.pngwing.com/pngs/532/456/png-transparent-sleeve-jumpsuit-romper-suit-clothing-fashion-dress-fashion-tie-woman.png"
          }
       ],
       "category": "Jumpsuits",
       "size": "M",
-      "seller": "2007"
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "_v": 19
    }
 ]

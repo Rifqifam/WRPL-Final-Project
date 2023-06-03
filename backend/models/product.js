@@ -25,11 +25,11 @@ const productSchema = new mongoose.Schema({
       {
          public_id: {
             type: String,
-            required: true,
+            default: "",
          },
          url: {
             type: String,
-            required: true,
+            default: "",
          },
       },
    ],
@@ -42,7 +42,7 @@ const productSchema = new mongoose.Schema({
       required: [true, "Please Enter Product Size"],
       maxLength: [3, "Product Size can't exceed 3 characters"],
    },
-   seller: {
+   sellerid: {
       type: String,
       required: [true, "Please Enter Product Seller "],
    },
