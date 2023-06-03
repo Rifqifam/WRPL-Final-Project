@@ -1,0 +1,42 @@
+.product_fav {
+   transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   position: relative;
+
+   padding: 10px 5px;
+
+   border: 1px solid #808080;
+   border-radius: 30px;
+   overflow: hidden;
+
+   &:hover button {
+      top: 0px;
+   }
+
+   button {
+      position: absolute;
+      cursor: pointer;
+      background: unset;
+      border: none;
+      font-size: 32px;
+      right: 20px;
+      top: -50px;
+      transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+   }
+
+   a {
+      display: flex;
+      justify-content: center;
+      img {
+         transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+         margin-block: auto;
+         width: 50%;
+         aspect-ratio: 3/2;
+         object-fit: contain;
+         margin: auto;
+      }
+   }
+}

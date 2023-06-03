@@ -78,6 +78,40 @@ exports.updateFavAdd = async (req, res, next) => {
    }
 };
 
+exports.checkItem = async (req, res, next) => {
+   try {
+      const user_id = req.params.id;
+      const foundName = req.body.name;
+
+      let userFav = await UserFav.findOne({ user_id: user_id });
+      const updatedFavorites = userFav.favorites.filter(
+         (item) => item.name === foundName
+      );
+
+      if (!userFav) {
+         return res.status(404).json({
+            success: false,
+            found: false,
+            message: "User Favorite Not Found",
+         });
+      } else if (updatedFavorites.length > 0) {
+         return res.status(200).json({
+            found: true,
+         });
+      }
+      res.status(200).json({
+         success: false,
+         found: false,
+      });
+   } catch (error) {
+      res.status(500).json({
+         success: false,
+         message: "Internal server error",
+         error: error.message,
+      });
+   }
+};
+
 // REMOVE FAVORITE FROM USER FAVORITES => PUT /wrpl-database/fav/delete/:id
 exports.updateFavDelete = async (req, res, next) => {
    try {

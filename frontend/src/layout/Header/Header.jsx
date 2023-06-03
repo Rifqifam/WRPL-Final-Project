@@ -63,7 +63,7 @@ const Header = () => {
                   />
                </span>
                <span className='favorite'>
-                  <NavLink to='/favourites'>
+                  <NavLink to='/favorites'>
                      <img src={Heart} alt='' />
                   </NavLink>
                </span>

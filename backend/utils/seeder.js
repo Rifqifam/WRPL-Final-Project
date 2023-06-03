@@ -47,5 +47,5 @@ const seedUser = async () => {
    }
 };
 
-// seedProducts();
-seedUser();
+seedProducts();
+// seedUser();

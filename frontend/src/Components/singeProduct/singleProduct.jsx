@@ -1,14 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./singleProduct.scss";
 import { useParams } from "react-router-dom";
-import {
-   ClerkProvider,
-   SignedIn,
-   SignIn,
-   SignedOut,
-   useUser,
-   useOrganization,
-} from "@clerk/clerk-react";
+import { useUser } from "@clerk/clerk-react";
+import { set } from "mongoose";
 
 const SingleProduct = () => {
    const API_URL = "http://localhost:4000/wrpl-database/";
@@ -18,12 +12,24 @@ const SingleProduct = () => {
    const processed_name = name.replace("_", " ");
    const [product, setProduct] = useState(null);
    const [fav, setFav] = useState(false);
-
-   const handleFav = () => {
-      if (!fav) {
-         setFav(true);
-      } else {
-         setFav(false);
+   const handleFav = async () => {
+      try {
+         const fullProduct = { product };
+         const body = { name: fullProduct.product.name };
+         const response = await fetch(`${API_URL}fav/check/${user.id}`, {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(body),
+         });
+         const found = await response.json();
+         console.log(found.found);
+         if (found.found === true) {
+            setFav(false);
+         } else {
+            setFav(true);
+         }
+      } catch (error) {
+         console.error(error);
       }
    };
 

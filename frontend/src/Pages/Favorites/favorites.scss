@@ -1,0 +1,25 @@
+.favorites_title {
+   font-family: Montserrat, "Sans-serif";
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   margin-bottom: 40px;
+
+   h1 {
+      margin-inline: auto;
+      font-weight: 800;
+      font-size: 62px;
+      margin-block: 10px;
+   }
+}
+
+.favorites_products_wrapper {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 21px;
+   row-gap: 40px;
+
+   .product {
+      width: 33%;
+   }
+}
