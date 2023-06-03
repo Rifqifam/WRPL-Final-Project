@@ -16,6 +16,7 @@
 
       &_rightcol {
          width: calc(65% - (75px / 2));
+         position: relative;
 
          &_gallery {
             display: grid;
@@ -25,6 +26,23 @@
 
             img {
                max-width: 100%;
+               height: 100%;
+               object-fit: contain;
+            }
+         }
+
+         &_name {
+            display: flex;
+            align-content: center;
+            column-gap: 20px;
+
+            h3 {
+               margin-block: unset;
+            }
+
+            p {
+               line-height: 24px;
+               margin-block: unset;
             }
          }
       }
