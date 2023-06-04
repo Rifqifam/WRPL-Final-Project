@@ -18,6 +18,7 @@ const Homepage = () => {
       };
       fetchData();
    }, []);
+
    return (
       <>
          <div className='homepage_title'>

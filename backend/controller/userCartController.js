@@ -4,6 +4,7 @@ const APIFeatures = require("../utils/apiFeatures");
 // ADD ITEM CART => GET /wrpl-database/cart/add
 exports.newCart = async (req, res, next) => {
    const userCart = await UserCart.create(req.body);
+   // const tes = req.body;
 
    res.status(201).json({
       success: true,
@@ -106,4 +107,39 @@ exports.displayUserCart = async (req, res, next) => {
       success: true,
       userCart,
    });
+};
+
+exports.checkItem = async (req, res, next) => {
+   try {
+      const user_id = req.params.id;
+      const foundName = req.body.name;
+
+      let userCart = await UserCart.findOne({ user_id: user_id });
+      const updatedCart = userCart.activeCart.filter(
+         (item) => item.name == foundName
+      );
+      // const updatedCart = UserCart.findOne({ user_id: user_id });
+
+      if (!userCart) {
+         return res.status(404).json({
+            success: false,
+            found: false,
+            message: "User Cart Not Found",
+         });
+      } else if (updatedCart.length > 0) {
+         return res.status(200).json({
+            found: true,
+         });
+      }
+      res.status(200).json({
+         success: false,
+         found: false,
+      });
+   } catch (error) {
+      res.status(500).json({
+         success: false,
+         message: "Internal server error",
+         error: error.message,
+      });
+   }
 };

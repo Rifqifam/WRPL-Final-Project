@@ -1,11 +1,15 @@
 const mongoose = require("mongoose");
 
-const userCartSchema = new mongoose.Schema({
+const paymentSchema = new mongoose.Schema({
    user_id: {
       type: String,
       required: true,
    },
-   activeCart: [
+   totalAmmount: {
+      type: Number,
+      required: [true, "Please Enter Amount"],
+   },
+   products: [
       {
          name: {
             type: String,
@@ -60,4 +64,4 @@ const userCartSchema = new mongoose.Schema({
    ],
 });
 
-module.exports = mongoose.model("usercarts", userCartSchema);
+module.exports = mongoose.model("payments", paymentSchema);

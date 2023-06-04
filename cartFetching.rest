@@ -3,7 +3,7 @@
 # Content-Type: application/json
 
 # {
-#     "user_id" : "123",
+#     "user_id" : "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
 #     "activeCart" : [{
 #       "name": "Luminous Threads",
 #       "price": 487310,
@@ -13,17 +13,45 @@
 #          {
 #             "public_id": "products/1",
 #             "url": "https://media.istockphoto.com/id/510615049/photo/mens-trousers.jpg?s=612x612&w=0&k=20&c=gdVhFuzt-Kbk4NG8cjaL1afjKoz_Z5Wddv2ssHFg2bM="
+#          },
+#          {
+#             "public_id": "products/1",
+#             "url": "https://media.istockphoto.com/id/510615049/photo/mens-trousers.jpg?s=612x612&w=0&k=20&c=gdVhFuzt-Kbk4NG8cjaL1afjKoz_Z5Wddv2ssHFg2bM="
 #          }
 #       ],
 #       "category": "Trousers",
 #       "size": "S",
-#       "seller": "2002",
+#       "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
 #       "amount": 2
 #     }]
 
 # }
 
-# PUT http://localhost:4000/wrpl-database/cart/update/addcart/123
+POST http://localhost:4000/wrpl-database/cart/add
+Content-Type: application/json
+
+{
+    "user_id" : "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+    "activeCart" : [{
+      "name": "Luminous Threads",
+      "price": 487310,
+      "desc": "Radiate confidence with exquisite trousers.",
+      "ratings": 3,
+      "images": [
+         {
+            "public_id": "products/1",
+            "url": "https://media.istockphoto.com/id/510615049/photo/mens-trousers.jpg?s=612x612&w=0&k=20&c=gdVhFuzt-Kbk4NG8cjaL1afjKoz_Z5Wddv2ssHFg2bM="
+         }
+      ],
+      "category": "Trousers",
+      "size": "S",
+      "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
+      "amount": 2
+    }]
+
+}
+
+# PUT http://localhost:4000/wrpl-database/cart/update/addcart/user_2QcDEt57ix7kQuSL7Mchgtn1gqR
 # Content-Type: application/json
 
 # {
@@ -39,12 +67,12 @@
 #       ],
 #       "category": "Trousers",
 #       "size": "S",
-#       "seller": "2002",
+#       "sellerid": "user_2QcDEt57ix7kQuSL7Mchgtn1gqR",
 #       "amount": 2
 
 # }
 
-GET http://localhost:4000/wrpl-database/cart?user_id=123
+GET http://localhost:4000/wrpl-database/cart?user_id=user_2QcDEt57ix7kQuSL7Mchgtn1gqR
 
 # PUT http://localhost:4000/wrpl-database/cart/update/deletecart/123
 # Content-Type: application/json

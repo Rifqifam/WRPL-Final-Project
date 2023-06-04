@@ -44,7 +44,7 @@
 
 # }
 
-GET http://localhost:4000/wrpl-database/fav?user_id=user_2QcDEt57ix7kQuSL7Mchgtn1gqR
+# GET http://localhost:4000/wrpl-database/fav?user_id=user_2QcDEt57ix7kQuSL7Mchgtn1gqR
 
 # PUT http://localhost:4000/wrpl-database/fav/update/deletefav/user_2QcDEt57ix7kQuSL7Mchgtn1gqR
 # Content-Type: application/json
