@@ -23,15 +23,19 @@ const Search = () => {
    return (
       <>
          <div className='search_title'>
-            <h1>Search : {name}</h1>
+            <h1>Search: {name}</h1>
          </div>
          <div className='search_result'>
-            {products.map((product) => (
-               <ProductBlock
-                  name={product.name}
-                  image={product.images[0].url}
-               />
-            ))}
+            {products.length === 0 ? (
+               <p>Product not found</p>
+            ) : (
+               products.map((product) => (
+                  <ProductBlock
+                     name={product.name}
+                     image={product.images[0].url}
+                  />
+               ))
+            )}
          </div>
       </>
    );

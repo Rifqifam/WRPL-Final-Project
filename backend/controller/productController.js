@@ -3,11 +3,18 @@ const APIFeatures = require("../utils/apiFeatures");
 
 exports.newProduct = async (req, res, next) => {
    const product = await Product.create(req.body);
-
-   res.status(201).json({
-      success: true,
-      product,
-   });
+   try {
+      res.status(201).json({
+         success: true,
+         product,
+      });
+   } catch (error) {
+      res.status(500).json({
+         success: false,
+         message: "Error adding products",
+         error: error.message,
+      });
+   }
 };
 
 // GET ALL PRODUCTS /wrpl-database/products?name=apple
@@ -18,7 +25,8 @@ exports.getAllProducts = async (req, res, next) => {
       const apiFeatures = new APIFeatures(Product.find(), req.query)
          .search()
          .filterByPrice()
-         .pagination(resultPerPage);
+         .pagination(resultPerPage)
+         .userId();
 
       const products = await apiFeatures.query; // Fetch all products from the database
 

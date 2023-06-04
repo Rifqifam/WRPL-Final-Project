@@ -1,4 +1,5 @@
 import "./App.scss";
+
 import {
   ClerkProvider,
   SignedIn,
@@ -21,35 +22,40 @@ import Favorites from "./Pages/Favorites/favorites";
 import SingleProduct from "./Components/singeProduct/singleProduct";
 import Cart from "./Pages/Cart/Cart";
 import Search from "./Pages/Search/search";
+import AdminPage from "./Pages/Admin/admin";
 
 const clerkPubKey = "pk_test_Y3VycmVudC1jcmFuZS0xNy5jbGVyay5hY2NvdW50cy5kZXYk";
 
 function App() {
-  return (
-    <>
-      <div className="app_wrapper">
-        <ClerkProvider publishableKey={clerkPubKey}>
-          <Router>
-            <SignedOut>
-              <div className="app_wrapper_signedoutstate">
-                <SignIn afterSignInUrl="/" />
-              </div>
-            </SignedOut>
-            <SignedIn>
-              <Header />
-              <Routes>
-                <Route path="/" element={<Homepage />} />
-                <Route path="/favorites" element={<Favorites />} />
-                <Route path="/search/:name" element={<Search />} />
-                <Route path="/product/:name" element={<SingleProduct />} />
-                <Route path="/cart" element={<Cart />} />
-              </Routes>
-            </SignedIn>
-          </Router>
-        </ClerkProvider>
-      </div>
-    </>
-  );
+   return (
+      <>
+         <div className='app_wrapper'>
+            <ClerkProvider publishableKey={clerkPubKey}>
+               <Router>
+                  <SignedOut>
+                     <div className='app_wrapper_signedoutstate'>
+                        <SignIn afterSignInUrl='/' />
+                     </div>
+                  </SignedOut>
+                  <SignedIn>
+                     <Header />
+                     <Routes>
+                        <Route path='/' element={<Homepage />} />
+                        <Route path='/favorites' element={<Favorites />} />
+                        <Route path='/search/:name' element={<Search />} />
+                        <Route path='/admin' element={<AdminPage />} />
+                        <Route
+                           path='/product/:name'
+                           element={<SingleProduct />}
+                        />
+                        <Route path="/cart" element={<Cart />} />
+                     </Routes>
+                  </SignedIn>
+               </Router>
+            </ClerkProvider>
+         </div>
+      </>
+   );
 }
 
 export default App;

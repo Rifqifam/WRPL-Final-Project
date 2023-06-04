@@ -44,14 +44,14 @@
 
 # }
 
-# GET http://localhost:4000/wrpl-database/fav?user_id=123
+GET http://localhost:4000/wrpl-database/fav?user_id=user_2QcDEt57ix7kQuSL7Mchgtn1gqR
 
-PUT http://localhost:4000/wrpl-database/fav/update/deletefav/user_2QcDEt57ix7kQuSL7Mchgtn1gqR
-Content-Type: application/json
+# PUT http://localhost:4000/wrpl-database/fav/update/deletefav/user_2QcDEt57ix7kQuSL7Mchgtn1gqR
+# Content-Type: application/json
 
-{
-   "name" : "Luminous Threads"
-}
+# {
+#    "name" : "Luminous Threads"
+# }
 
 
 # PUT http://localhost:4000/wrpl-database/fav/check/user_2QcDEt57ix7kQuSL7Mchgtn1gqR

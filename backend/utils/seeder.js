@@ -1,10 +1,10 @@
 const Product = require("../models/product");
-const User = require("../models/userCart.js");
+// const User = require("../models/user");
 const dotenv = require("dotenv");
 const connectDatabase = require("../config/database");
 
 const products = require("../data/productSeeder.json");
-const users = require("../data/userSeeder.json");
+// const users = require("../data/userSeeder.json");
 
 // Setting DOTENV FILE
 dotenv.config({ path: "backend/config/config.env" });

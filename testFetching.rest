@@ -1,6 +1,6 @@
-# _________________________________________
-GET http://localhost:4000/wrpl-database/products?name=lu
-# page, name, maxPrice, minPrice
+# # _________________________________________
+GET http://localhost:4000/wrpl-database/products?sellerid=user_2QcDEt57ix7kQuSL7Mchgtn1gqR
+# page, name, maxPrice, minPrice, sellerid
 
 
 # _________________________________________
@@ -34,20 +34,16 @@ GET http://localhost:4000/wrpl-database/products?name=lu
 
 
 
-# POST http://localhost:4000/wrpl-database/admin/product/new
+# POST http://localhost:4000/wrpl-database/admin/product/add/
 # Content-Type: application/json
 
 # {
-#     "name": "Radiant Raiment",
+#     "name": "Tes Product",
 #     "price": 87.511,
 #     "desc": "The Radiant Raiment Jacket captures the essence of beauty, with its graceful silhouette and timeless appeal.",
 #     "ratings" : 5,
-#     "images" : [{
-#         "public_id" : "products/2",
-#         "url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/COLLECTIE_TROPENMUSEUM_Rok_met_panoramische_beschildering_van_Indonesisch_landschap_TMnr_6217-7.jpg/640px-COLLECTIE_TROPENMUSEUM_Rok_met_panoramische_beschildering_van_Indonesisch_landschap_TMnr_6217-7.jpg"
-#     }],
 #     "category": "Jackets/Coats",
 #     "size": "XL",
-#     "seller": "2007"
+#     "sellerid": "2007"
 # }
 

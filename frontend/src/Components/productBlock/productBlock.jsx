@@ -8,7 +8,7 @@ const productBlock = (props) => {
 
    return (
       <>
-         <NavLink to={`/product/${name}`}>
+         <NavLink to={`/product/${name}`} className='product_wrapper'>
             <article className='product'>
                <img src={image} alt={name} />
             </article>

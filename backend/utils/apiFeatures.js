@@ -4,9 +4,11 @@ class APIFeatures {
       this.queryStr = queryStr;
    }
 
-   cartId() {
-      const user_id = this.queryStr.userid;
-      this.query = this.queryStr.find({ ...user_id });
+   userId() {
+      const sellerid = this.queryStr.userid;
+      this.query = this.query.find({ ...sellerid });
+
+      return this;
    }
 
    search() {
@@ -22,6 +24,11 @@ class APIFeatures {
 
       return this;
    }
+
+   // findbyUserID(){
+   //    const user_id = this.queryStr.user_id;
+   //    this.query =
+   // }
 
    filterByPrice() {
       const { minPrice, maxPrice } = this.queryStr;

@@ -48,7 +48,7 @@ const userFavSchema = new mongoose.Schema({
             required: [true, "Please Enter Product Size"],
             maxLength: [3, "Product Size can't exceed 3 characters"],
          },
-         seller: {
+         sellerid: {
             type: String,
             required: [true, "Please Enter Product Seller "],
          },
