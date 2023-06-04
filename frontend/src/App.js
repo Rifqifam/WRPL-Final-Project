@@ -1,17 +1,26 @@
 import "./App.scss";
-import { ClerkProvider, SignedIn, SignIn, SignedOut } from "@clerk/clerk-react";
 
 import {
-   NavLink,
-   BrowserRouter as Router,
-   Routes,
-   Route,
+  ClerkProvider,
+  SignedIn,
+  SignIn,
+  SignedOut,
+  useUser,
+  useClerk,
+} from "@clerk/clerk-react";
+
+import {
+  NavLink,
+  BrowserRouter as Router,
+  Routes,
+  Route,
 } from "react-router-dom";
 
 import Header from "./layout/Header/Header";
 import Homepage from "./Pages/Homepage/Homepage";
 import Favorites from "./Pages/Favorites/favorites";
 import SingleProduct from "./Components/singeProduct/singleProduct";
+import Cart from "./Pages/Cart/Cart";
 import Search from "./Pages/Search/search";
 import AdminPage from "./Pages/Admin/admin";
 
@@ -39,6 +48,7 @@ function App() {
                            path='/product/:name'
                            element={<SingleProduct />}
                         />
+                        <Route path="/cart" element={<Cart />} />
                      </Routes>
                   </SignedIn>
                </Router>
